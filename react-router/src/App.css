@@ -1,0 +1,50 @@
+.App {
+	text-align: center;
+}
+/** Дефолтный класс от NavLink */
+.active {
+	text-decoration: none;
+	color: rgb(46, 184, 230);
+}
+/** Классы добавлен с помощью className в компоненте Home */
+.activeLink {
+	text-decoration: none;
+	color: rgb(61, 227, 119);
+}
+.link {
+	color: lightcoral;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 50px;
+}
+
+nav {
+	background-color: lightseagreen;
+	padding: 16px;
+}
+
+nav a {
+	margin-right: 10px;
+	color: aliceblue;
+	font-size: large;
+}
+
+button {
+	padding: 15px;
+	margin: 20px;
+	font-size: 30px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.courseLink {
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.courseLink:hover {
+	text-decoration: underline;
+}
